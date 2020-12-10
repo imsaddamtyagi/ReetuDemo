@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tests">
+  <test thread-count="5" name="Test">
+    <classes>
+    
+ 	<class name="PharmaAddon.AddonLogin"/>
+ 	<class name="PharmaAddon.ItemCreation"/>
+ 	<class name="PharmaAddon.VendorCreation"/>
+ 	<class name="PharmaAddon.PurchaseOrder"/>
+	<class name="PharmaAddon.GoodsReceipt"/>
+	<class name="PharmaAddon.Batches"/>
+ 	<class name="PharmaAddon.ContainerAllocation"/>
+ 	<class name="PharmaAddon.Sampling"/> 	
+ 	<class name="PharmaAddon.QuarantineUnsertestTransfer"/>
+ 	<class name="PharmaAddon.QualityMaster"/>
+ 	<class name="PharmaAddon.QualityCheck"/>
+	
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
